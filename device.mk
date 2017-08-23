@@ -285,6 +285,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/configs/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini
 
+# KeyHandler
+PRODUCT_PACKAGES += \
+    com.cyanogenmod.keyhandler
+
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += fs_config_files \
                     fs_config_dirs
