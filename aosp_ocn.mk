@@ -35,7 +35,7 @@ $(call inherit-product, device/htc/ocn/device.mk)
 # Set those variables here to overwrite the inherited values.
 
 PRODUCT_DEVICE := ocn
-PRODUCT_NAME := ocn
+PRODUCT_NAME := aosp_ocn
 PRODUCT_BRAND := HTC
 PRODUCT_MODEL := ocn
 PRODUCT_MANUFACTURER := HTC
